@@ -1,0 +1,13 @@
+.main-nav-bar{
+    height: 4rem;
+    background-color: green;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.Logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}

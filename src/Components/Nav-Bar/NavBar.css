@@ -53,12 +53,11 @@
     background-color: whitesmoke;
 }
 
-.lower-nav>ul>li{
-    text-decoration: none;
-    outline: none;
-    color: black;
-    font-size: 15px;
-    /* font-weight: bold; */
+.lower-nav{
+    
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
 }

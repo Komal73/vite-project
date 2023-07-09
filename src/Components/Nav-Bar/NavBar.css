@@ -11,3 +11,54 @@
     justify-content: center;
     width: 100px;
 }
+.SignIn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 200px;
+    height: 100%;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 120px;
+    height: 100%;
+}
+.buttons>button{
+    margin: 8px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    height: 40%;
+    width: 110px;
+}
+.Icons{
+    color: white;
+    display: flex;
+    /* padding-right: 5px; */
+}
+.Icons>i{
+    margin: 5px;
+}
+.lower-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.lower-nav>ul>li{
+    text-decoration: none;
+    outline: none;
+    color: black;
+    font-size: 15px;
+    /* font-weight: bold; */
+    display: flex;
+    flex-direction: row;
+}

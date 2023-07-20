@@ -31,7 +31,7 @@ const AboutVideo = () => {
       </div>
 
       <div className="text-And-Video-Section">
-        <div className="videos-part">
+        <div className="videos-part" >
           <iframe
             width="420"
             height="315"

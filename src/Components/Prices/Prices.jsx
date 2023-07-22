@@ -6,7 +6,7 @@ const Prices = () => {
             <div className="price-section">
                 <div className='prices'>
                     <div className="head">
-                        <h2>Basic</h2> 
+                        <h2>Basic</h2>
                         <h2>$35</h2>
                     </div>
                     <div className="body">
@@ -15,11 +15,14 @@ const Prices = () => {
                             <li>3 Veg Sandwitch</li>
                             <li>1 Veg Pizza</li>
                         </ul>
+                        
+                    </div>
+                    <div className="btn-buy-now">
                         <button id="buyNow">Buy Now</button>
                     </div>
                 </div>
                 <div className='prices'>
-                <div className="head">
+                    <div className="head">
                         <h2>Standard </h2>
                         <h2> $50</h2>
                     </div>
@@ -29,12 +32,15 @@ const Prices = () => {
                             <li>3 Veg Sandwitch</li>
                             <li>1 Veg Pizza</li>
                         </ul>
+                       
+                    </div>
+                    <div className="btn-buy-now">
                         <button id="buyNow">Buy Now</button>
                     </div>
-                    
+
                 </div>
                 <div className='prices'>
-                <div className="head">
+                    <div className="head">
                         <h2>Premium </h2>
                         <h2> $45</h2>
                     </div>
@@ -44,9 +50,12 @@ const Prices = () => {
                             <li>3 Veg Sandwitch</li>
                             <li>1 Veg Pizza</li>
                         </ul>
+                       
+                    </div>
+                    <div className="btn-buy-now">
                         <button id="buyNow">Buy Now</button>
                     </div>
-                    
+
                 </div>
             </div>
         </>

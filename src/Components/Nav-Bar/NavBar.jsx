@@ -24,12 +24,12 @@ const NavBar = () => {
     </div>
 
     <div className='lower-nav'>
-        <div className="options">HOME</div>
-        <div className="options">ABOUT US</div>
-        <div className="options">SERVICE</div>
-        <div className="options">PRICING</div>
-        <div className="options">BLOG</div>
-        <div className="options">CONTACT</div>
+        <div className="options"><a href="">HOME</a></div>
+        <div className="options"><a href="">ABOUT US</a></div>
+        <div className="options"><a href="">SERVICE</a></div>
+        <div className="options"><a href="">PRICING</a></div>
+        <div className="options"><a href="">BLOG</a></div>
+        <div className="options"><a href="">CONTACT</a></div>
     </div>
     </>
   )

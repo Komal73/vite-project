@@ -33,6 +33,7 @@
     background-color: transparent;
     color: green;
     border: 2px green solid;
+    transform: scale(1.2);
 }
 .videos-part{
     display: flex;

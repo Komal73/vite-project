@@ -1,19 +1,19 @@
 .price-section{
     height: auto;
     width: 100%;
-   
+   /* border: 1px red solid; */
     display: flex;
     justify-content: space-evenly;
     padding: 100px 50px;
 }
 .prices{
-    border: 2px solid black;
-    height: 450px;
+    /* border: 2px solid black; */
+    height: auto;
     width: 300px;
-   
+    box-shadow: 8px 6px 16px 4px rgba(0,0,0,0.70);
 }
 .head{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 150px;
     padding: 16px;
     display: flex;
@@ -21,10 +21,16 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(2, 171, 2);
+    color: white;
+    letter-spacing: 1px;
+
 }
 .body{
     padding: 16px ;
-    height: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 ul{
     list-style: none;
@@ -35,11 +41,14 @@ li {
     display: list-item;
     text-align: center;
     font-size: x-large;
+    padding: 10px;
 }
 .btn-buy-now{
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 #buyNow{
     height: 50px;
@@ -50,6 +59,7 @@ li {
     font-size: 15px;
     border: 0px;
     transition: 0.6s;
+    box-shadow: 8px 6px 16px 4px rgba(0,0,0,0.70);
 }
 #buyNow:hover{
     background-color: transparent;

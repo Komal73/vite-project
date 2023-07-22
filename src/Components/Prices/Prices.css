@@ -24,6 +24,7 @@
 }
 .body{
     padding: 16px ;
+    height: 300px;
 }
 ul{
     list-style: none;
@@ -34,6 +35,11 @@ li {
     display: list-item;
     text-align: center;
     font-size: x-large;
+}
+.btn-buy-now{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #buyNow{
     height: 50px;

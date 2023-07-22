@@ -59,13 +59,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    height: 50px;
+    height: 70px;
     width: 100%;
     background-color: whitesmoke;
 }
 
 .lower-nav{
-    
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,13 +80,21 @@
     justify-content: space-evenly;
     width: 7%;
     font-weight: bold;
-}
-a{
+    height: 40px;
+    color: green;
+    transition: 0.5s;
+    margin: 5px;
+}   
+.options>a{
     text-decoration: none;
     color: green;
 }
-.options:hover{
-    border: 1px red solid;
- /*   background-color: green;  */
+.options>a:hover{
     color: white;
+}
+.options:hover{
+    /* border-radius: 20px; */
+    /* border: 2px green solid; */
+    color: white;
+   background-color: green; 
 }

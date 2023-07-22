@@ -25,7 +25,7 @@ const NavBar = () => {
 
     <div className='lower-nav'>
         <div className="options"><a href="">HOME</a></div>
-        <div className="options"><a href="">ABOUT US</a></div>
+        <div className="options"><a href="">ABOUT</a></div>
         <div className="options"><a href="">SERVICE</a></div>
         <div className="options"><a href="">PRICING</a></div>
         <div className="options"><a href="">BLOG</a></div>

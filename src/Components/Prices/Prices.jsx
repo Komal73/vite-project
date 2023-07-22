@@ -58,6 +58,13 @@ const Prices = () => {
 
                 </div>
             </div>
+
+
+            <div className='Discount-img'>
+            <img src="slider.jpg"  style={{height:'80vh' , width:'100%'}} />
+            </div>
+
+
         </>
     )
 }

@@ -13,9 +13,9 @@ const Blog = () => {
                     <img src="indian food.jpg"  style={{height:'100%' , width:'100%' , }} />
                     </div>
                     <div className="blog-box btns">
-                        <h5>Lorem ipsum dolor sit,<br/> amet consectetur adipisicing.</h5>
+                        <h5>Lorem ipsum dolor sit, <br /> amet consectetur adipisicing.</h5>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur cumque iste iure est dignissimos dolorum.</p>
-                            <button id='iiii'>Read More</button>
+                        <button id="readMore">Read More</button>
                     </div>
                     <div className="blog-box">
                     <img src="japanese.jpg"  style={{height:'100%' , width:'100%' , }} />

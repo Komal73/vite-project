@@ -29,13 +29,13 @@
 }
 
 .blog-content {
-    height: 350px;
+    height: auto;
     width: 100%;
     /* border: 1px blue solid; */
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    flex-wrap: wrap;
 }
 
 .blog-box {
@@ -43,10 +43,12 @@
     width: 300px;
     /* border: 1px red solid; */
     box-shadow: 8px 6px 16px 2px rgba(0, 0, 0, 0.70);
-
+    margin: 10px;
 }
-.blog-box>h5{
-    .blog-box 
+.blog-box>img{
+    height: 100%;
+    width: 100%;
+
 }
 
 .btns {

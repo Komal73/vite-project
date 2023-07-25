@@ -5,12 +5,14 @@
     display: flex;
     justify-content: space-evenly;
     padding: 100px 50px;
+    flex-wrap: wrap;
 }
 .prices{
     /* border: 2px solid black; */
     height: auto;
     width: 300px;
     box-shadow: 8px 6px 16px 4px rgba(0,0,0,0.70);
+    margin: 10px;
 }
 .head{
     /* border: 2px solid black; */

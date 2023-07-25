@@ -10,7 +10,7 @@ const Blog = () => {
                 </div>
                 <div className="blog-content">
                     <div className="blog-box">
-                    <img src="indian food.jpg"  style={{height:'100%' , width:'100%' , }} />
+                    <img src="indian food.jpg" />
                     </div>
                     <div className="blog-box btns">
                         <h5>Lorem ipsum dolor sit, <br /> amet consectetur adipisicing.</h5>
@@ -18,7 +18,7 @@ const Blog = () => {
                         <button id="readMore">Read More</button>
                     </div>
                     <div className="blog-box">
-                    <img src="japanese.jpg"  style={{height:'100%' , width:'100%' , }} />
+                    <img src="japanese.jpg" />
                     </div>
                 </div>
             </div>

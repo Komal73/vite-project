@@ -1,6 +1,6 @@
 .footer{
     background-color: green;
-    height: 20vw;
+    /* height: 20rem; */
     display: flex;
     justify-content: space-around;
     align-items:center ;
@@ -11,20 +11,24 @@
 
 
 .text{
-    
     display: flex;
     justify-content: center;
     align-items:center ;
+    flex-direction: column;
 }
 
 .social{
-    
-    width: 15vw;
-}
-.social>ul{
     display: flex;
     justify-content: space-around;
-    align-items:center ;
+    align-items: center;
+    margin: 1rem;
+    width: 20%;
+}
+.social>i{
+    transition: 0.5s;
+}
+.social>i:hover{
+    transform: scale(1.5);
 }
 
 i{
@@ -35,17 +39,11 @@ i{
 a>i{
     transition: 0.6s;
 }
-/*
-a:hover{
-    background-color: red;
-}
-*/
-i:hover{
-    transform: scale(1.5);
-    background-color: red;
-}
 
 .website{
     
     font-size: large;
+}
+.copyright{
+    margin: 10px;
 }

@@ -1,0 +1,51 @@
+.footer{
+    background-color: green;
+    height: 20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    flex-direction: column;
+    color: white;
+}
+
+
+
+.text{
+    
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+.social{
+    
+    width: 15vw;
+}
+.social>ul{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+}
+
+i{
+    color: white;
+    cursor: pointer;
+    size: 20px;
+}
+a>i{
+    transition: 0.6s;
+}
+/*
+a:hover{
+    background-color: red;
+}
+*/
+i:hover{
+    transform: scale(1.5);
+    background-color: red;
+}
+
+.website{
+    
+    font-size: large;
+}

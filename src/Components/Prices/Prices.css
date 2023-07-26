@@ -11,8 +11,13 @@
     /* border: 2px solid black; */
     height: auto;
     width: 300px;
-    box-shadow: 8px 6px 16px 4px rgba(0,0,0,0.70);
+    box-shadow: 8px 6px 16px 4px rgba(0,0,0,0.50);
     margin: 10px;
+    transition: 0.5s;
+}
+.prices:hover{
+    transform: scale(1.1);
+    box-shadow: 8px 6px 16px 4px rgba(0,0,0,0.70);
 }
 .head{
     /* border: 2px solid black; */
